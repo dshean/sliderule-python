@@ -4,17 +4,18 @@ channels:
   - conda-forge
 dependencies:
   - python=3.8
+  - pip
+  - requests
   - setuptools_scm
-  - cartopy
   - ipykernel
   - ipywidgets
   - matplotlib
   - numpy
-  - pandas
-  - pip
-  - pyproj
   - scipy
+  - pandas
+  - geopandas
+  - pyproj
   - shapely
-  - requests
+  - cartopy
   - pip:
       - -e ./
